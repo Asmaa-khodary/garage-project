@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car service</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-placeholder"></div>
+    </header>
+
+    <!-- MAINN -->
+     <h1 class="title">Book a Service Appointment for Your Car</h1>
+    <main class="container">
+        
+
+        <div class="content_">
+        <section class="form-section">
+            
+            
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="fullName">Full name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="carType">Car Type</label>
+                    <input type="text" placeholder="Enter your cartype..." required>
+                </div>
+
+
+                <!--  لسه هيتم تعديلها  -->
+                <div class="form-group">
+                    <label for="service">Select Service</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select service</option>
+                        <option value="oil-change">Oil Change</option>
+                        <option value="tire-rotation">Tire Rotation</option>
+                        <option value="brake-service">Brake Service</option>
+                        <option value="engine-diagnostic">Engine Diagnostic</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Select Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number..." required>
+                </div>
+
+                <button type="submit" class="btn-confirm">Confirm Booking</button>
+            </form>
+        </section>
+
+        
+        <section class="image-section">
+            <img src="https://cdn.prod.website-files.com/698ef3567c7a09b473a1fac2/6996a35889580ef52c9ddf95_Services%20Image.webp" alt="Car Service" >
+        </section>
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-placeholder"></div>
+    </footer>
+
+    <script>
+       
+            alert('BOOKING DONE ,THANK FOR USING OUR SERVICES ');
+    </script>
+</body>
+</html>
